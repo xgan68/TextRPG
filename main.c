@@ -1,4 +1,3 @@
-#
 #include <iostream>
 #include <string>
 #include <math.h>
@@ -39,7 +38,7 @@ public:
 	int strength;
 	bool flagDead;
 public:
-  Entity() {initHealth = health;}
+	Entity() {initHealth = health;}
 	~Entity() { ; }
 
 	virtual void update() = 0;
